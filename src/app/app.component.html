@@ -1,0 +1,11 @@
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px">
+  <span>ราคา: {{price()}} บาท</span>
+  <span>ราคา x2: {{priceX2()}} บาท</span>
+  <button (click)="addPrice()" style="max-width: 10rem;">
+    <span>เพิ่มราคา</span>
+  </button>
+  <button (click)="removePrice()" style="max-width: 10rem;">
+    <span>ลดราคา</span>
+  </button>
+</div>
+
